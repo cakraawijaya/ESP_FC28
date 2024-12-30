@@ -1,36 +1,19 @@
-========================================
- CREATOR OF SOIL MOISTURE LIBRARY FC-28
-========================================
- By: Devan Cakra M.W
+#######################################
+# ESP_FC28 by Devan Cakra M.W
+#######################################
 
+#######################################
+# CLASS
+#######################################
+ FC28Sensor		     KEYWORD1
 
-========================================
- CLASS
-========================================
- FC28Sensor			KEYWORD1
-
-
-========================================
-FUNCTIONS
-========================================
- begin				KEYWORD2
- threshold			KEYWORD2
- limit				KEYWORD2
- vState				KEYWORD2
- viewData			KEYWORD2
- calibration			KEYWORD2
- getSoilMoisture		KEYWORD2
-
-
-========================================
-VARIABLES
-========================================
- _pin		uint8_t		KEYWORD3
- wetSoil 	uint8_t		KEYWORD3
- drySoil	uint8_t		KEYWORD3
- ADCvalue	float		KEYWORD3
- percentage	float		KEYWORD3
- adjust		float		KEYWORD3
-
-
-========================================
+#######################################
+# FUNCTIONS
+#######################################
+ begin			     KEYWORD2
+ threshold		     KEYWORD2
+ limit			     KEYWORD2
+ vState			     KEYWORD2
+ viewData		     KEYWORD2
+ calibration		     KEYWORD2
+ getSoilMoisture	     KEYWORD2
